@@ -11,13 +11,7 @@ import {
   getStoredCoupons,
   saveStoredCoupons,
 } from "./utils/storage";
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
 
-export default defineConfig({
-  plugins: [react()],
-  base: '/e-commerce-website-for-jp-clothings/',
-})
 import Toast from "./components/Toast";
 import ProductCard from "./components/ProductCard";
 import ProductDetailsModal from "./components/ProductDetailsModal";
